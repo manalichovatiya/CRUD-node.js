@@ -1,0 +1,46 @@
+const express = require("express");
+const foodRoutes = require("./food.route");
+const footwearRoutes = require("./footwear.route");
+const necklaceRoutes = require("./necklace.route");
+const ringRoutes = require("./ring.route");
+const eventRoutes = require("./event.route");
+const blogRoutes = require("./blog.route");
+const carRoutes = require("./car.route");
+const celebrityRoutes = require("./celebrity.route");
+const farmRoutes = require("./farm.route");
+const gameRoutes = require("./game.route");
+const gardenRoutes = require("./garden.route");
+const jeansRoutes = require("./jeans.route");
+const jobRoutes = require("./job.route");
+const perfumeRoutes = require("./perfume.route");
+const plantnurseryRoutes = require("./plantnursery.route");
+const sareeRoutes = require("./saree.route");
+const servantRoutes = require("./servant.route");
+const storyRoutes = require("./story.route");
+const vlogRoutes = require("./vlog.route");
+const watchRoutes = require("./watch.route");
+
+const router = express.Router();
+
+router.use("/food", foodRoutes);
+router.use("/footwear", footwearRoutes);
+router.use("/necklace", necklaceRoutes);
+router.use("/ring", ringRoutes);
+router.use("/event", eventRoutes);
+router.use("/blog", blogRoutes);
+router.use("/car", carRoutes);
+router.use("/celebrity", celebrityRoutes);
+router.use("/farm", farmRoutes);
+router.use("/game", gameRoutes);
+router.use("/garden", gardenRoutes);
+router.use("/jeans", jeansRoutes);
+router.use("/job", jobRoutes);
+router.use("/perfume", perfumeRoutes);
+router.use("/plantnursery", plantnurseryRoutes);
+router.use("/saree", sareeRoutes);
+router.use("/servant", servantRoutes);
+router.use("/story", storyRoutes);
+router.use("/vlog", vlogRoutes);
+router.use("/watch", watchRoutes);
+
+module.exports = router;
