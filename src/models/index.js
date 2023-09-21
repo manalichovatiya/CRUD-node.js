@@ -27,4 +27,4 @@ module.exports.Project = require("./project");
 module.exports.Quotes = require("./quotes");
 module.exports.Socialmedia = require("./socialmedia");
 module.exports.Todolist = require("./todolist");
-module.exports.Whatsapp = require("./whatsapp");n
+module.exports.Whatsapp = require("./whatsapp");

@@ -26,5 +26,5 @@ module.exports.pencilService = require("./pencil.service");
 module.exports.projectService = require("./project.service");
 module.exports.quotesService = require("./quotes.service");
 module.exports.socialmediaService = require("./socialmedia.service");
-module.exports.todolistService = require("./todolist.service");
+module.exports.todolistService = require("./todo.service");
 module.exports.whatsappService = require("./whatsapp.service");

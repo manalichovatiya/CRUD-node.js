@@ -19,6 +19,16 @@ const servantRoutes = require("./servant.route");
 const storyRoutes = require("./story.route");
 const vlogRoutes = require("./vlog.route");
 const watchRoutes = require("./watch.route");
+const attendeesRoutes = require("./attendees.route");
+const bikeRoutes = require("./bike.route");
+const cycleRoutes = require("./cycle.route");
+const flowerRoutes = require("./flower.route");
+const pencilRoutes = require("./pencil.route");
+const projectRoutes = require("./project.route");
+const quotesRoutes = require("./quotes.route");
+const socialmediaRoutes = require("./socialmedia.route");
+const todolistRoutes = require("./todolist.route");
+const whatsappRoutes = require("./whatsapp.route");
 
 const router = express.Router();
 
@@ -42,5 +52,15 @@ router.use("/servant", servantRoutes);
 router.use("/story", storyRoutes);
 router.use("/vlog", vlogRoutes);
 router.use("/watch", watchRoutes);
+router.use("/attendees", attendeesRoutes);
+router.use("/bike", bikeRoutes);
+router.use("/cycle", cycleRoutes);
+router.use("/flower", flowerRoutes);
+router.use("/pencil", pencilRoutes);
+router.use("/project", projectRoutes);
+router.use("/quotes", quotesRoutes);
+router.use("/socialmedia", socialmediaRoutes);
+router.use("/todolist", todolistRoutes);
+router.use("/whatsapp", whatsappRoutes);
 
 module.exports = router;
